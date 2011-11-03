@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /fonts/astro
+# catalog-date 2008-10-03 22:28:15 +0200
+# catalog-license lppl
+# catalog-version 2.20
 Name:		texlive-astro
 Version:	2.20
 Release:	1
@@ -46,6 +52,7 @@ font is distributed in MetaFont format.
 %{_texmfdistdir}/fonts/tfm/public/astro/astrosym.tfm
 %doc %{_texmfdistdir}/doc/fonts/astro/astrosym.tex
 %doc %{_texmfdistdir}/doc/fonts/astro/astrosym.txt
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +63,5 @@ font is distributed in MetaFont format.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
