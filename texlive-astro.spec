@@ -6,7 +6,7 @@
 # catalog-version 2.20
 Name:		texlive-astro
 Version:	2.20
-Release:	4
+Release:	5
 Summary:	Astronomical (planetary) symbols
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/astro
