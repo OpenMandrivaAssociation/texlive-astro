@@ -1,6 +1,6 @@
 Name:		texlive-astro
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Astronomical (planetary) symbols
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/astro
