@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Astronomical (planetary) symbols
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/astro
+URL:		https://www.ctan.org/tex-archive/fonts/astro
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/astro.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/astro.doc.r%{version}.tar.xz
